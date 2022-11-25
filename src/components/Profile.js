@@ -1,14 +1,13 @@
 import React from "react";
-
+import Trends from "./Trends";
 import Sidebar from "./Sidebar";
 const Profile = () => {
   
   return (
     <div className="twitter">
-      <Profile />
-      {/* <Twittes />
-      <Trends /> */}
-      <h1>Profile</h1>
+     <Sidebar />
+      <center><h1>This is Profile page.</h1></center>
+      <Trends/>
     </div>
   );
 };
