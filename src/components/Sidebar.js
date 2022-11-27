@@ -9,8 +9,11 @@ import {
   FaRegBookmark,
   FaClipboardList,
   FaUserAlt,
+  FaUsers,
+  FaSearch,
   FaMehBlank,
   FaSearchPlus,
+  FaSignOutAlt,
   FaHubspot
 } from "react-icons/fa";
 
@@ -36,7 +39,7 @@ const Sidebar = () => {
         </li>
         <li>
           <Link to="/explore">
-            <FaSearchPlus className="icons" /> Explore
+            <FaSearch className="icons" /> Explore
           </Link>
         </li>
         <li>
@@ -50,13 +53,13 @@ const Sidebar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/bookmakrs">
+          <Link to="/bookmarks">
             <FaRegBookmark className="icons" /> Bookmarks
           </Link>
         </li>
         <li>
           <Link to="/connections">
-            <FaClipboardList className="icons" /> Connections
+            <FaUsers className="icons" /> Connections
           </Link>
         </li>
         <li>
@@ -70,7 +73,7 @@ const Sidebar = () => {
           </a>
         </li> */}
         <div className="sidebar__Btn">
-          <a href="">{log}</a>
+          <Link to="/logout">{log}</Link>
         </div>
       </ul>
     </div>

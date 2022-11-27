@@ -25,9 +25,9 @@ body {
   align-items: center;
   text-decoration: none;
   color: #000;
-  padding: 18px 35px;
+  padding: 15px 35px;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
 }
 .sidebar ul li a:hover {
   background: #f1d0ef;
@@ -43,6 +43,7 @@ body {
 .sidebar__Btn {
   margin: 15px 0;
 }
+
 .sidebar__Btn a {
   text-decoration: none;
   background: #970878;
@@ -53,6 +54,9 @@ body {
   outline: none;
   display: block;
   text-align: center;
+
+  font-weight: 700;
+  font-size: 16px;
 }
 
 /* Posts style */
@@ -125,6 +129,9 @@ body {
   border-radius: 50px;
   outline: none;
   padding: 10px 20px;
+
+  font-weight: 700;
+  font-size: 15px;
 }
 
 .postss {

@@ -4,6 +4,9 @@ import {
   FaTwitter,
   FaHome,
   FaHashtag,
+  FaUsers,
+  FaSearch,
+  FaSistrix,
   FaRegBell,
   FaRegEnvelope,
   FaRegBookmark,
@@ -13,6 +16,8 @@ import {
   FaSearchPlus,
   FaHubspot
 } from "react-icons/fa";
+import { FiUser } from "react-icons/fi";
+
 import Twittes from "./Twittes";
 import Tredn from "./Trends";
 
@@ -39,7 +44,7 @@ const Home = () => {
         </li>
         <li>
           <Link to="/explore">
-            <FaSearchPlus className="icons" /> Explore
+            <FaSearch className="icons" /> Explore
           </Link>
         </li>
         <li>
@@ -59,11 +64,12 @@ const Home = () => {
         </li>
         <li>
           <Link to="/connections">
-            <FaClipboardList className="icons" /> Connections
+            <FaUsers className="icons" /> Connections
           </Link>
         </li>
         <li>
           <Link to="/profile">
+          {/* FaUserAlt */}
             <FaUserAlt className="icons" /> Profile
           </Link>
         </li>
@@ -73,7 +79,7 @@ const Home = () => {
           </a>
         </li> */}
         <div className="sidebar__Btn">
-          <Link href="">{log}</Link>
+          <Link to="/logout">{log}</Link>
         </div>
       </ul>
     </div>
