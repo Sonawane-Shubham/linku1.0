@@ -5,26 +5,93 @@ import "./Contact.css";
 
 function Contact() {
     return (
-        <div className='mainContactContainer'>
+        <div className="mainContactContainer">
             <div>
-                <div style={{ width: "20pc", padding: "10px" }}>
+                <div className="searchbar" >
                     <input type="search" placeholder="search your friend" className="searchbarforcontact" />
                 </div>
                 <div className="usersDetailContainer">
                     <div className="userContainer">
-                        <img src="/profile.jpg" className="Chatuserimage" alt="" />
+                        <img src="/images/profile.jpg" className="Chatuserimage" alt="" />
                         <div style={{ marginLeft: "15px" }}>
-                            <p style={{ color: "while", textAlign: "start", marginTop: "5px", fontSize: "13px" }}>shubham sonawane</p>
-                            <p style={{ color: "while", textAlign: "start", marginTop: "5px", fontSize: "13px" }}>open your message</p>
-
-                        </div> 
-
+                            <p className="userName" >shubham sonawane</p>
+                            
+                        </div>
                     </div>
-                    
-                    
+                    <div className="userContainer">
+                        <img src="/images/profile.jpg" className="Chatuserimage" alt="" />
+                        <div style={{ marginLeft: "15px" }}>
+                            <p className="userName" >Hrishikesh Jadhav</p>
+                            
+                        </div>
+                    </div>
+                    <div className="userContainer">
+                        <img src="/images/profile.jpg" className="Chatuserimage" alt="" />
+                        <div style={{ marginLeft: "15px" }}>
+                            <p className="userName" >Rohit Paul</p>
+                            
+                        </div>
+                    </div>
+                    <div className="userContainer">
+                        <img src="/images/profile.jpg" className="Chatuserimage" alt="" />
+                        <div style={{ marginLeft: "15px" }}>
+                            <p className="userName" >Onkareshwar Shirale</p>
+                            
+                        </div>
+                    </div>
+                    <div className="userContainer">
+                        <img src="/images/profile.jpg" className="Chatuserimage" alt="" />
+                        <div style={{ marginLeft: "15px" }}>
+                            <p className="userName" >Onkareshwar Shirale</p>
+                            
+                        </div>
+                    </div>
+                    <div className="userContainer">
+                        <img src="/images/profile.jpg" className="Chatuserimage" alt="" />
+                        <div style={{ marginLeft: "15px" }}>
+                            <p className="userName" >Onkareshwar Shirale</p>
+                            
+                        </div>
+                    </div>
+                    <div className="userContainer">
+                        <img src="/images/profile.jpg" className="Chatuserimage" alt="" />
+                        <div style={{ marginLeft: "15px" }}>
+                            <p className="userName" >Onkareshwar Shirale</p>
+                            
+                        </div>
+                    </div>
+                    <div className="userContainer">
+                        <img src="/images/profile.jpg" className="Chatuserimage" alt="" />
+                        <div style={{ marginLeft: "15px" }}>
+                            <p className="userName" >Onkareshwar Shirale</p>
+                            
+                        </div>
+                    </div>
+                    <div className="userContainer">
+                        <img src="/images/profile.jpg" className="Chatuserimage" alt="" />
+                        <div style={{ marginLeft: "15px" }}>
+                            <p className="userName" >Onkareshwar Shirale</p>
+                            
+                        </div>
+                    </div>
+                    <div className="userContainer">
+                        <img src="/images/profile.jpg" className="Chatuserimage" alt="" />
+                        <div style={{ marginLeft: "15px" }}>
+                            <p className="userName" >Onkareshwar Shirale</p>
+                            
+                        </div>
+                    </div>
+                    <div className="userContainer">
+                        <img src="/images/profile.jpg" className="Chatuserimage" alt="" />
+                        <div style={{ marginLeft: "15px" }}>
+                            <p className="userName" >Onkareshwar Shirale</p>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
-           
+            <ChatContainer />
+
 
         </div>
     )

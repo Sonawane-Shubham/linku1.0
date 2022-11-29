@@ -3,9 +3,42 @@
     /* margin-left: 10px; */
 
 }
+
+.chatReceiver{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: black;
+    width: 52pc;
+    padding: 5px;
+    border-radius: 10px;
+
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: black;
+    width: 40pc;
+    padding: 0px;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.chatReceiverName{
+    text-align: start;
+    margin-top: 10px;
+    margin-left:10px ;
+    color: white;
+        
+        
+        
+}
 .userProfile{
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
     border-radius: 50%;
 }
 .chatuserprofile{
@@ -21,25 +54,63 @@
     overflow-y: scroll;
 }
 .msginput{
-    width: 50pc;
-    margin-right: 200px;
-    height: 6vh;
+    width: 47pc;
+   
+    padding: 6px;
     margin-top: 10px;
+    color: white;
+    background-color:black ;
+    border: none;
+    margin-top: 0px;
+
 
 }
 .msgSenderContainer{
     display: flex;
-    width: 70px;
+    width: 40pc;
     background-color: black;
-    margin-top: 20px;
+    margin-top: 35px;
     padding: 5px;
     margin-left: 30px;
+    border-radius: 10px;
 }
 .msgbutton{
-    width: 130px;
-    height: 30px;
+    width: 110px;
+    height: 40px;
     margin-top: 0px;
+    margin-left: 15px;
     border: none;
+    background-color: #970878;
     color: white;
     border-radius: 10px;
+}
+.msgReceive{
+    display:flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: rgb(176, 235, 181);
+    
+    padding: 5px;
+    border-radius: 10px;
+    width: 25pc;
+   
+}
+.msgSend{
+    display:flex;
+    align-items: center;
+    margin-left: 275px;
+    margin-top: 10px;
+    background-color: rgb(134, 241, 124);
+    
+    padding: 5px;
+    border-radius: 10px;
+    width: 25pc;
+
+}
+.msgtxt{
+    text-align: start;
+    margin-left: 10px;
+    color: black;
+    
 }

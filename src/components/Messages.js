@@ -1,4 +1,5 @@
 import React from "react";
+
 import Home from "./Home";
 import Trends from "./Trends";
 import Sidebar from "./Sidebar";
@@ -7,11 +8,11 @@ import ChatContainer from "./chat/ChatContainer";
 const Messages = () => {
   
   return (
-    <div className="linku">
+    <div style={{display:"flex",flexDirection:"row"}}>
       
       <Sidebar />
       <Contact/>
-      <ChatContainer/>
+      
      
     </div>
   );
