@@ -47,15 +47,13 @@ const Miniprofile = () => {
 					</ul>
 				</div>
 				<div className="skills">
-					<h6>Skills</h6>
+					<h6>Project</h6>
 					<ul>
-						<li>UI / UX</li>
-						<li>Front End Development</li>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-						<li>React</li>
-						<li>Node</li>
+						<li>Project</li>
+						<li>Project</li>
+						<li>Project</li>
+						<li>Project</li>
+						
 					</ul>
 				</div>
                 <div className="skills">
