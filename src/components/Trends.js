@@ -72,7 +72,7 @@ const Trends = () => {
         }
         
       
-      {/* <TrendsKeyword /> */}
+      <TrendsKeyword />
     </div>
   );
 };
