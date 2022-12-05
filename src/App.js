@@ -1,4 +1,5 @@
 import "./App.css";
+import BookData from "./Data.json";
 // importing components from react-router-dom package
 import {
   BrowserRouter as Router,
